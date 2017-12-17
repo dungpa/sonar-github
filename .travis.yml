@@ -28,7 +28,7 @@ addons:
 deploy:
   provider: releases
   api_key: ${api_key}
-  file: "*.jar"
+  file: "sonar-github-plugin-1.4.2-SNAPSHOT-sources.jar"
   skip_cleanup: true
   on:
     all_branches: true
